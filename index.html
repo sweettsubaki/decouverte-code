@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Célia Collet</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <script src="./scripts.js"></script>
+  </head>
+
+  <body>
+<header>
+    <h1>Célia Collet</h1>
+</header>
+
+<section class="about">
+   <img src="images/picsou.jpg" alt="Photo de picsou" />
+   <h2>Presentation</h2>
+   <p>
+    Bonjour ! Je suis Célia Collet, une future <a href="https://www.linkedin.com/in/c%C3%A9lia-collet-2195b185/" target="_blank">Développeuse web</a> (probablement).<br />
+    Je suis actuellement opticienne mais souhaiterai me former en code via une formation en alternance si possible
+   </p>
+ </section>
+
+<section class="skills">
+  <h2>Compétences</h2>
+  <div class="skills-content">
+    <div class="skills-column">
+        <div class="progress-container">
+            <span class="progress-badge">Vente Optique</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">70%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+         <div class="progress-container">
+            <span class="progress-badge">Troller</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+         </div>
+          <!-- Fin .progress-container -->
+         <div class="progress-container">
+            <span class="progress-badge">Analyse d'oeuvres fictives</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+              <span class="progress-value">75%</span>
+            </div>
+         </div>
+          <!-- Fin .progress-container -->
+    </div>
+   <!-- Fin .skills-column -->
+    <div class="skills-column">
+        <div class="progress-container">
+            <span class="progress-badge">Pack Office</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%;"></div>
+              <span class="progress-value">95%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Anglais</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">HTML/CSS</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+              <span class="progress-value">20%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+    </div>
+    <!-- Fin .skills-column -->
+  </div>
+<!-- Fin .skills-content -->
+
+<section class="timeline">
+  <h2>Expérience</h2>
+  <ul>
+    <!-- Début expérience 1 -->
+    <li>
+      <div class="bubble">
+        <time>2018 - 2020</time>
+        <span>Opticienne en Apprentissage - Krys</span>
+        <br />Choisy le Roi (94), France
+      </div>
+    </li>
+    <!-- Fin expérience 1 -->
+    <!-- Début expérience 2 -->
+    <li>
+      <div class="bubble">
+        <time>Décembre 2017 - Juin 2018</time>
+        <span>Vendeuse Jouets - Oxybul</span>
+        <br />Antony (92), France
+      </div>
+    </li>
+    <!-- Fin expérience 2 -->
+    <!-- Début expérience 3 -->
+    <li>
+	<div class="bubble">
+		<time>Septembre 2017 - Novembre 2017</time>
+		<span>Conseillère de Caisse - Decathlon</span>
+    <br />Créteil (94), France
+  </div>
+    </li>
+    <!-- Fin expérience 3 -->
+    <!-- Début expérience 4 -->
+    <li>
+	<div class="bubble">
+		<time>2015 - 2016</time>
+		<span>Assistante Administrative</span>
+    <br />Montreuil (93) puis Paris (15ème)
+  </div>
+    </li>
+    <!-- Fin expérience 4 -->
+  </ul>
+</section>
+
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10521.136867162235!2d2.317478086245331!3d48.75736846681489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e676c2c0e62ab3%3A0x1c0b82c6e1d88510!2s94260%20Fresnes!5e0!3m2!1sen!2sfr!4v1604586624707!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <form name="contact" method="POST" data-netlify="true">
+    <div class="row">
+      <div class="form-group">
+        <label>Nom</label>
+        <input type="text" name="name" placeholder="Votre nom" required />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Votre email"
+          required
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea
+        name="message"
+        placeholder="Votre message..."
+        required
+      ></textarea>
+    </div>
+    <button class="btn">Envoyer</button>
+  </form>
+</section>
+
+</body>
+</html>
