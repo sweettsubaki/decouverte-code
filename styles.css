@@ -19,8 +19,9 @@ background-repeat: no-repeat;
 body {
   font-family:Impact, Charcoal, sans-serif;
   margin: 0;
+  color: darkgreen
   background: rgb(86,136,164);
-  background: linear-gradient(90deg, rgba(86,136,164,1) 0%, rgba(153,192,213,1) 100%);
+  background: linear-gradient(90deg, rgba(86,136,164,1) 0%, rgba(153,192,213,1) 100%)
 }
 h1 {
   font-size: 50px;
@@ -37,6 +38,7 @@ h1 {
   padding: 20px;
   padding-bottom: 20px;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  color: rgb(3, 72, 75)
 }
 .about img {
   border-radius: 50%;
@@ -48,6 +50,7 @@ h2 {
   font-size: 24px;
   margin-top: 30px;
   margin-bottom: 15px;
+  color: rgb(3, 72, 75)
 }
 a {
   color: darkolivegreen
@@ -65,6 +68,7 @@ a {
   margin: 70px auto;
   padding: 20px;
   padding-top: 0;
+  color: rgb(3, 72, 75)
 }
 
 .skills-content {
