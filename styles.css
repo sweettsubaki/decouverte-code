@@ -33,7 +33,7 @@ h1 {
   width: 70%;
   margin: 70px auto;
   padding: 20px;
-  padding-top: 0;
+  padding-bottom: 20px;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 .about img {
